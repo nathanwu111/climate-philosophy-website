@@ -1,0 +1,25 @@
+{
+  "name": "climate-wayfinding",
+  "version": "1.0.0",
+  "description": "Climate Wayfinding - A philosophical exploration of emotional connection to nature and climate action. PHI 116 Final Project.",
+  "scripts": {
+    "build": "echo 'Static site - no build required'",
+    "start": "npx serve .",
+    "dev": "npx serve . -l 3000"
+  },
+  "keywords": [
+    "climate",
+    "philosophy",
+    "ecocentrism",
+    "care-ethics",
+    "environmental-ethics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
+

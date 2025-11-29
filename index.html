@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Climate Wayfinding - A philosophical exploration of how emotional connection to nature shapes authentic climate action. PHI 116 Final Project.">
+    <meta name="theme-color" content="#1B4332">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="In Defense of a Beating Heart | Climate Wayfinding">
+    <meta property="og:description" content="How falling in love with the wild world shaped my climate journey">
+    <meta property="og:type" content="website">
+    
+    <title>Climate Wayfinding | In Defense of a Beating Heart</title>
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Loading Screen -->
+    <div class="loader" id="loader" aria-hidden="true">
+        <div class="loader__content">
+            <div class="loader__leaf">
+                <svg viewBox="0 0 50 50" aria-hidden="true">
+                    <path d="M25 2C25 2 10 15 10 30C10 38 17 45 25 48C33 45 40 38 40 30C40 15 25 2 25 2Z" fill="currentColor"/>
+                    <path d="M25 48V15" stroke="var(--neutral-light)" stroke-width="1.5" fill="none"/>
+                    <path d="M25 25L18 20M25 32L32 27M25 38L20 34" stroke="var(--neutral-light)" stroke-width="1" fill="none"/>
+                </svg>
+            </div>
+            <span class="loader__text">Awakening...</span>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="header" id="header" role="banner">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <a href="#hero" class="nav__logo" aria-label="Climate Wayfinding - Return to top">
+                <svg class="nav__logo-icon" viewBox="0 0 40 40" aria-hidden="true">
+                    <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M20 5C20 5 10 14 10 24C10 30 14 35 20 37C26 35 30 30 30 24C30 14 20 5 20 5Z" fill="currentColor"/>
+                </svg>
+                <span>Climate Wayfinding</span>
+            </a>
+            
+            <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+                <span class="nav__toggle-bar"></span>
+                <span class="nav__toggle-bar"></span>
+                <span class="nav__toggle-bar"></span>
+            </button>
+            
+            <ul class="nav__menu" id="nav-menu" role="menubar">
+                <li role="none"><a href="#narrative" class="nav__link" role="menuitem">My Story</a></li>
+                <li role="none"><a href="#philosophy" class="nav__link" role="menuitem">Philosophy</a></li>
+                <li role="none"><a href="#action" class="nav__link" role="menuitem">My Commitment</a></li>
+                <li role="none"><a href="#conclusion" class="nav__link" role="menuitem">Living Awake</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="hero" aria-labelledby="hero-title">
+            <div class="hero__bg" aria-hidden="true">
+                <div class="hero__gradient"></div>
+                <div class="hero__pattern"></div>
+            </div>
+            
+            <div class="hero__content">
+                <span class="hero__eyebrow" aria-hidden="true">PHI 116 · Environmental Ethics · Final Project · Nathan Wu</span>
+                <h1 class="hero__title" id="hero-title">In Defense of a Beating Heart</h1>
+                <p class="hero__subtitle">How falling in love with the wild world shaped my climate journey</p>
+                
+                <a href="#narrative" class="hero__cta" aria-label="Begin reading my climate philosophy journey">
+                    <span>Begin the Journey</span>
+                    <svg class="hero__cta-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 4v16m0 0l-6-6m6 6l6-6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="hero__scroll-indicator" aria-hidden="true">
+                <div class="hero__scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- Personal Narrative Section -->
+        <section class="narrative" id="narrative" aria-labelledby="narrative-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-header__number" aria-hidden="true">01</span>
+                    <h2 class="section-header__title" id="narrative-title">My Story: The Wake-Up Call</h2>
+                    <p class="section-header__subtitle">A Personal Narrative</p>
+                </header>
+
+                <div class="narrative__content">
+                    <div class="narrative__intro">
+                        <p class="narrative__lead">
+                            Before coming to Wake Forest, I had never lived immersed in nature. Growing up in a city, it was here that I was first genuinely surrounded by towering trees, ever-changing blue skies, sunlight filtering through the leaves, and the cheerful, unscared squirrels.
+                        </p>
+                    </div>
+
+                    <div class="narrative__body">
+                        <div class="narrative__chapter">
+                            <h3 class="narrative__chapter-title">A Serene Dream</h3>
+                            <p>
+                                It all formed a serene, harmonious dream, leading me to believe that this was how our world was supposed to be—beautiful and balanced. The campus became my first true long-time encounter with the natural world, a place where I could witness the quiet rhythms of life unfolding around me.
+                            </p>
+                        </div>
+
+                        <blockquote class="narrative__quote">
+                            <p>"However, this tranquility became the prelude to my awakening. As I began to truly understand our planet, this beautiful illusion was completely shattered."</p>
+                        </blockquote>
+
+                        <div class="narrative__chapter">
+                            <h3 class="narrative__chapter-title">The Shattering Truth</h3>
+                            <p>
+                                I learned a shocking truth: <strong>we are currently living through the sixth mass extinction</strong>, and this time, the driving force is not an asteroid or volcanoes, but us—humanity.
+                            </p>
+                            <p>
+                                This realization filled me with a deep and profound anger. The beautiful campus I saw was a facade masking global deforestation and habitat fragmentation. The lively squirrels around me hinted at the countless species being silenced forever due to habitat loss, pollution, and climate chaos.
+                            </p>
+                            <p>
+                                I understood that the harmony I enjoyed was a dangerous illusion, masking the systematic collapse occurring in other corners of the Earth.
+                            </p>
+                        </div>
+
+                        <div class="narrative__chapter">
+                            <h3 class="narrative__chapter-title">Forging Determination</h3>
+                            <p>
+                                It is this anger that forged my unwavering determination. It made it impossible for me to remain comfortable in this beautiful "bubble." It made it clear that we must do something together to change this trajectory.
+                            </p>
+                            <p>
+                                <strong>This is my "Why."</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Philosophy Section -->
+        <section class="philosophy" id="philosophy" aria-labelledby="philosophy-title">
+            <div class="container">
+                <header class="section-header section-header--light">
+                    <span class="section-header__number" aria-hidden="true">02</span>
+                    <h2 class="section-header__title" id="philosophy-title">My Philosophical Compass</h2>
+                    <p class="section-header__subtitle">Why I Act</p>
+                </header>
+
+                <div class="philosophy__intro">
+                    <p>
+                        My commitment to protecting our planet is anchored in two complementary philosophical frameworks. One defines the value of what I seek to protect, and the other defines the person I strive to become in that effort.
+                    </p>
+                </div>
+
+                <div class="philosophy__grid">
+                    <!-- Ecocentrism Card -->
+                    <article class="philosophy-card" id="ecocentrism">
+                        <div class="philosophy-card__header">
+                            <div class="philosophy-card__icon" aria-hidden="true">
+                                <svg viewBox="0 0 60 60">
+                                    <circle cx="30" cy="30" r="25" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                                    <circle cx="30" cy="30" r="15" fill="none" stroke="currentColor" stroke-width="1"/>
+                                    <circle cx="30" cy="30" r="5" fill="currentColor"/>
+                                    <path d="M30 5v10M30 45v10M5 30h10M45 30h10" stroke="currentColor" stroke-width="1"/>
+                                </svg>
+                            </div>
+                            <h3 class="philosophy-card__title">Ecocentrism</h3>
+                            <p class="philosophy-card__tagline">Recognizing Intrinsic Value</p>
+                        </div>
+                        
+                        <div class="philosophy-card__content">
+                            <p>
+                                Ecocentrism asserts that nature has <strong>inherent worth</strong>, completely independent of its utility to humans. This philosophy stands in direct opposition to the worldview that treats the planet merely as a resource for human consumption.
+                            </p>
+                            
+                            <blockquote class="philosophy-card__quote">
+                                <p>My Connection:</p>
+                            </blockquote>
+                            
+                            <p>
+                                This idea gave a name to the source of my anger. Learning about the sixth mass extinction wasn't just learning about a "problem"; it was learning about the systematic destruction of something that has a <strong>right to exist for its own sake</strong>.
+                            </p>
+                            <p>
+                                The squirrels on campus, the untouched wetlands, the complex web of life in the oceans—their value isn't contingent on how they serve us. My mission, therefore, is not just to preserve a "pleasant environment for humans," but to defend a living world that possesses its own inherent dignity.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Virtue Ethics Card -->
+                    <article class="philosophy-card" id="virtue-ethics">
+                        <div class="philosophy-card__header">
+                            <div class="philosophy-card__icon" aria-hidden="true">
+                                <svg viewBox="0 0 60 60">
+                                    <path d="M30 50C30 50 50 35 50 22C50 14 44 8 36 8C32 8 30 12 30 12C30 12 28 8 24 8C16 8 10 14 10 22C10 35 30 50 30 50Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                                    <path d="M20 25C22 23 26 23 28 25" stroke="currentColor" stroke-width="1" fill="none"/>
+                                    <path d="M32 25C34 23 38 23 40 25" stroke="currentColor" stroke-width="1" fill="none"/>
+                                </svg>
+                            </div>
+                            <h3 class="philosophy-card__title">Virtue Ethics</h3>
+                            <p class="philosophy-card__tagline">Cultivating an Ecological Character</p>
+                        </div>
+                        
+                        <div class="philosophy-card__content">
+                            <p>
+                                Virtue ethics shifts the focus from rules or consequences to the <strong>character of the moral agent</strong>. It asks not "What should I <em>do</em>?" but "Who should I <em>be</em>?"
+                            </p>
+                            
+                            <blockquote class="philosophy-card__quote">
+                                <p>My Connection:</p>
+                            </blockquote>
+                            
+                            <p>
+                                This framework validates the emotional core of my "Why." My <strong>love</strong> for nature is not a sentimental sidebar; it is the virtue of <em>benevolence</em> extended to the more-than-human world. My <strong>anger</strong> at its destruction is not an irrational emotion; it is the virtue of <em>justice</em> reacting to a profound wrong. My <strong>determination</strong> to act is the virtue of <em>courage</em> in the face of a daunting challenge.
+                            </p>
+                            <p>
+                                Protecting the planet, for me, is the essential practice of becoming a more virtuous, integrated, and responsible human being.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="philosophy__synthesis">
+                    <h3 class="philosophy__synthesis-title">Synthesis: A Unified Foundation</h3>
+                    <p>
+                        Together, these philosophies provide a powerful, dual foundation for my climate action. <strong>Ecocentrism tells me <em>what</em> is worthy of protection, and virtue ethics tells me <em>who</em> I must become to be an effective protector.</strong>
+                    </p>
+                    <p>
+                        My "Why" is, therefore, both a commitment to the intrinsic value of the living world and a commitment to my own moral growth within it.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Action Section -->
+        <section class="action" id="action" aria-labelledby="action-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-header__number" aria-hidden="true">03</span>
+                    <h2 class="section-header__title" id="action-title">My Commitment: From Awareness to Practice</h2>
+                    <p class="section-header__subtitle">Translating Philosophy into Action</p>
+                </header>
+
+                <p class="action__intro">
+                    Conviction without action is incomplete. My philosophical framework demands tangible expression. These three commitments translate my understanding of ecocentrism and virtue ethics into practices that shape my daily life and my contribution to the world.
+                </p>
+
+                <div class="action__grid">
+                    <!-- Action Card 1 -->
+                    <article class="action-card">
+                        <div class="action-card__number" aria-hidden="true">01</div>
+                        <div class="action-card__content">
+                            <h3 class="action-card__title">Defend Intrinsic Value</h3>
+                            <p class="action-card__description">
+                                If nature possesses inherent worth independent of human use, then my actions must reflect that belief. This means actively defending the right of species and ecosystems to exist—not because they benefit me, but because their existence is valuable in itself.
+                            </p>
+                            <ul class="action-card__list">
+                                <li>Support conservation efforts that prioritize biodiversity over human recreation</li>
+                                <li>Advocate for policies that grant legal standing to ecosystems</li>
+                                <li>Challenge language that frames nature solely as "natural resources"</li>
+                                <li>Make choices that minimize my footprint on wild habitats</li>
+                            </ul>
+                        </div>
+                        <div class="action-card__visual" aria-hidden="true">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="0.5"/>
+                                <path d="M50 5C50 5 25 30 25 55C25 70 36 85 50 95C64 85 75 70 75 55C75 30 50 5 50 5Z" fill="currentColor" opacity="0.1"/>
+                                <path d="M50 95V30" stroke="currentColor" stroke-width="1" fill="none"/>
+                                <path d="M50 50L35 40M50 65L65 55M50 80L40 72" stroke="currentColor" stroke-width="0.75" fill="none"/>
+                            </svg>
+                        </div>
+                    </article>
+
+                    <!-- Action Card 2 -->
+                    <article class="action-card">
+                        <div class="action-card__number" aria-hidden="true">02</div>
+                        <div class="action-card__content">
+                            <h3 class="action-card__title">Practice Ecological Virtue</h3>
+                            <p class="action-card__description">
+                                Virtue ethics teaches that character is built through practice. I commit to cultivating the virtues of benevolence, justice, and courage toward the more-than-human world—not as a one-time decision, but as a daily discipline that shapes who I am becoming.
+                            </p>
+                            <ul class="action-card__list">
+                                <li>Practice <strong>benevolence</strong> through daily acts of care for local nature</li>
+                                <li>Exercise <strong>justice</strong> by speaking out against ecological destruction</li>
+                                <li>Develop <strong>courage</strong> by taking uncomfortable stands for the voiceless</li>
+                                <li>Cultivate <strong>humility</strong> by recognizing my place within, not above, nature</li>
+                            </ul>
+                        </div>
+                        <div class="action-card__visual" aria-hidden="true">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="0.5"/>
+                                <circle cx="35" cy="40" r="12" fill="currentColor" opacity="0.1"/>
+                                <circle cx="65" cy="40" r="12" fill="currentColor" opacity="0.1"/>
+                                <circle cx="50" cy="65" r="12" fill="currentColor" opacity="0.1"/>
+                                <path d="M35 40L65 40M35 40L50 65M65 40L50 65" stroke="currentColor" stroke-width="1"/>
+                            </svg>
+                        </div>
+                    </article>
+
+                    <!-- Action Card 3 -->
+                    <article class="action-card">
+                        <div class="action-card__number" aria-hidden="true">03</div>
+                        <div class="action-card__content">
+                            <h3 class="action-card__title">Bridge the Illusion</h3>
+                            <p class="action-card__description">
+                                My awakening began when the "beautiful illusion" was shattered. Most people still live within that bubble, unaware of the sixth mass extinction unfolding beyond their view. My commitment is to help others see—not through guilt or fear, but through connection and truth.
+                            </p>
+                            <ul class="action-card__list">
+                                <li>Share my story and invite others to reflect on theirs</li>
+                                <li>Create conversations that make the invisible crisis visible</li>
+                                <li>Connect the beauty we enjoy to the destruction we ignore</li>
+                                <li>Build community around shared love for the living world</li>
+                            </ul>
+                        </div>
+                        <div class="action-card__visual" aria-hidden="true">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="0.5"/>
+                                <path d="M20 50C20 50 35 30 50 30C65 30 80 50 80 50C80 50 65 70 50 70C35 70 20 50 20 50Z" fill="currentColor" opacity="0.1"/>
+                                <circle cx="50" cy="50" r="10" fill="none" stroke="currentColor" stroke-width="1"/>
+                                <circle cx="50" cy="50" r="3" fill="currentColor"/>
+                            </svg>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusion Section -->
+        <section class="conclusion" id="conclusion" aria-labelledby="conclusion-title">
+            <div class="container">
+                <div class="conclusion__content">
+                    <header class="section-header section-header--centered">
+                        <span class="section-header__number" aria-hidden="true">04</span>
+                        <h2 class="section-header__title" id="conclusion-title">Living Awake</h2>
+                    </header>
+
+                    <div class="conclusion__text">
+                        <p>
+                            I began in an illusion—the serene dream of Wake Forest's towering trees, blue skies, and cheerful squirrels. I believed this beauty was simply how the world was. Then the illusion shattered, and I saw the truth: we are living through the sixth mass extinction, and we are its cause.
+                        </p>
+                        <p>
+                            That awakening could have led to despair. Instead, it led me to philosophy—to <strong>ecocentrism</strong>, which taught me that the natural world possesses inherent worth beyond any human measure, and to <strong>virtue ethics</strong>, which showed me that my love, my anger, and my determination are not obstacles to moral clarity but its very foundation.
+                        </p>
+                        <p>
+                            Now, I understand my path. Ecocentrism tells me <em>what</em> is worthy of protection: a living world with its own right to exist. Virtue ethics tells me <em>who</em> I must become: a person whose character is forged through the daily practice of ecological benevolence, justice, and courage. My commitments—defending intrinsic value, practicing ecological virtue, and bridging the illusion for others—are not burdens. They are the expression of a fully awake life.
+                        </p>
+                    </div>
+
+                    <blockquote class="conclusion__quote">
+                        <p>"To live awake is not to carry the weight of the world, but to carry its love—and to act from that love with clear eyes and an unwavering heart."</p>
+                    </blockquote>
+
+                    <div class="conclusion__closing">
+                        <p>
+                            The crisis is real. The loss is immense. But I refuse to look away, and I refuse to be paralyzed. I have seen the beauty, I have faced the truth, and I have found my "Why." This is not the end of a project—it is the beginning of a commitment. A commitment to the intrinsic value of the living world, and to my own moral growth within it.
+                        </p>
+                        <p class="conclusion__signature">
+                            — With clear eyes and determined hope, for the world that deserves our protection.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <p class="footer__title">Climate Wayfinding</p>
+                    <p class="footer__subtitle">PHI 116: Environmental Ethics</p>
+                    <p class="footer__credit">Final Project · Fall 2025</p>
+                </div>
+                <nav class="footer__nav" aria-label="Footer navigation">
+                    <a href="#hero">Return to Top</a>
+                    <a href="#narrative">My Story</a>
+                    <a href="#philosophy">Philosophy</a>
+                    <a href="#action">My Commitment</a>
+                </nav>
+            </div>
+            <div class="footer__bottom">
+                <p>Created with care for the living world.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
+
+
